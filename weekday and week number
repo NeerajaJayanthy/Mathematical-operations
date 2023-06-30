@@ -1,0 +1,36 @@
+//weekday and week number
+#include<stdio.h>
+int main()
+{
+  int a;
+  printf("ENTER A WEEKNUMBER");
+  scanf("%d",&a);
+  switch(a)
+  {
+    case 1:
+      printf("SUNDAY");
+      break;
+    case 2:
+      printf("MONDAY");
+      break;
+    case 3:
+      printf("TUESDAY");
+      break;
+    case 4:
+      printf("WEDNESDAY");
+      break;
+    case 5:
+      printf("THURSDAY");
+      break;
+    case 6:
+      printf("FRIDAY");
+      break;
+    case 7:
+      printf("SATURDAY");
+      break;
+    default :
+      printf("ENTER A NO BETWEEN 1 AND 7");
+
+  }
+  return 0;
+}
