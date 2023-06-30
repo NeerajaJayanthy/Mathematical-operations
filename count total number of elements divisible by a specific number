@@ -1,0 +1,29 @@
+//count total number of elements divisible by a specific number
+#include <stdio.h>
+int main()
+{
+  int a[50],n,i,count=0,k;
+  printf("Enter the size of the array:");
+  scanf("%d",&n);
+  printf("Enter the array elements:");
+  for(i=0;i<n;++i)
+  {
+ scanf("%d",&a[i]);
+  }
+printf("The array is\n");
+for(i=0;i<n;++i)
+  {
+printf("%d",a[i]);
+  }
+  
+  printf("\nEnter element to check divisibility with array elements:\n");
+ scanf("%d",&k);
+ for(i=0;i<n;i++)
+ {
+   if(a[i]%k==0)
+   count++;
+}
+printf("The total no. of  elements divisible by %d is %d",k,count);
+
+  return 0;
+}
