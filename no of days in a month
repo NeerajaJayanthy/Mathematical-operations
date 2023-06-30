@@ -1,0 +1,51 @@
+//no of days in a month
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("Enter any month from 1 to 12\n");
+    scanf("%d", &a);
+    switch(a)
+    {
+        case 1: 
+            printf("31days- January\n");
+            break;
+        case 2: 
+            printf("28 or 29 days-February\n");
+            break;
+        case 3: 
+            printf("31days-March\n");
+            break;
+        case 4: 
+            printf("30 days-April\n");
+            break;
+        case 5: 
+            printf("31days-May\n");
+            break;
+        case 6: 
+            printf("30 days-June\n");
+            break;
+        case 7: 
+            printf("31days-July\n");
+            break;
+        case 8: 
+            printf("31days-August\n");
+            break;
+        case 9: 
+            printf("30 days-September\n");
+            break;
+        case 10: 
+            printf("31days-October\n");
+            break;
+        case 11: 
+            printf("30 days-November\n");
+            break;
+        case 12: 
+            printf("31days-December\n");
+            break;
+      default: 
+            printf("Type a number from 1 to 12");
+    }
+
+    return 0;
+}
